@@ -15,7 +15,6 @@ import menuBarStyles from './menu-bar.css';
 import styles from './settings-menu.css';
 
 import dropdownCaret from './dropdown-caret.svg';
-import settingsIcon from './icon--settings.svg';
 
 const SettingsMenu = ({
     canChangeLanguage,
@@ -32,12 +31,6 @@ const SettingsMenu = ({
         onOpen={onRequestOpen}
         onClose={onRequestClose}
     >
-        <img
-            src={settingsIcon}
-            draggable={false}
-            width={20}
-            height={20}
-        />
         <span className={styles.dropdownLabel}>
             <FormattedMessage
                 defaultMessage="Settings"
