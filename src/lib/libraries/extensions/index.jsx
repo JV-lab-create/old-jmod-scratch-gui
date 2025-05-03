@@ -732,9 +732,57 @@ export default [
         iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
         description: (
             <FormattedMessage
-                defaultMessage="Login with Google to your projects. Allows getting a name, profile picture and email from the google account."
+                defaultMessage="Login with Google to your projects. Allows getting a name, profile picture and email from the google account. Created by Ikelene."
                 description="Sty-Lists"
                 id="googleaith.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Discord Auth"
+                description="extensions"
+                id="discordauth.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/NotHouse/DiscordAuth.js',
+        iconURL: "https://extensions.penguinmod.com/images/NotHouse/DiscordAuth-banner.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Login with discord to your projects. Identify users by ID and username in a secure and easy way! Created by enderhacker."
+                description="extensions"
+                id="discordauth.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Git Penguin"
+                description="extensions"
+                id="discordauth.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/justablock/gitpenguin.js',
+        iconURL: "https://extensions.penguinmod.com/images/justablock/gitpenguin.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Make requests and control the files for your GitHub repository. Created by justablock."
+                description="extensions"
+                id="discordauth.description"
             />
         ),
         incompatibleWithScratch: true,
@@ -783,6 +831,54 @@ export default [
                 defaultMessage="Advanced Audio Engine with complex Sound Control, Audio Effects and more"
                 description="Sty-Lists"
                 id="tune-shark-v3.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Spotify"
+                description="Spotify"
+                id="spotify.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Spotify.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Spotify.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Fetch Statistics, Information, and Play Songs from Spotify"
+                description="Spotify"
+                id="spotify.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="SoundCloud API"
+                description="SoundCloud-API"
+                id="soundcloud-api.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/SoundCloud-API.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/SoundCloud-API.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Fetch Tracks, Artists, and Statistics from Soundcloud"
+                description="SoundCloud-API"
+                id="soundcloud-api.description"
             />
         ),
         incompatibleWithScratch: true,
