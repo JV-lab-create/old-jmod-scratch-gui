@@ -5,7 +5,7 @@ export default [
     {tag: 'scratch', intlLabel: 'Scratch'},
     {tag: 'tw', intlLabel: 'Turbowarp'},
     {tag: 'pm', intlLabel: 'PenguinMod'},
-    {tag: 'se', intlLabel: 'Sharkpools Extensions'},
+    {tag: 'se', intlLabel: 'Other Mods'},
     {tag: 'pl', intlLabel: 'Programming Languages'},
     {tag: 'eg', intlLabel: 'Collections'}
 ];
