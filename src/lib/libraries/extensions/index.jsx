@@ -770,7 +770,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Git Penguin"
                 description="extensions"
-                id="discordauth.name"
+                id="gitpenguin.name"
                 values={{
                     APP_NAME
                 }}
@@ -782,7 +782,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Make requests and control the files for your GitHub repository. Created by justablock."
                 description="extensions"
-                id="discordauth.description"
+                id="gitpenguin.description"
             />
         ),
         incompatibleWithScratch: true,
