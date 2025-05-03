@@ -456,30 +456,6 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="Variables Expanded"
-                description="New Variable Blocks and New Variable Monitors"
-                id="ve.name"
-                values={{
-                    APP_NAME
-                }}
-            />
-        ),
-        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Variables-Expanded.js',
-        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Variables-Expanded.svg",
-        description: (
-            <FormattedMessage
-                defaultMessage="New Variable Blocks and New Variable Monitors"
-                description="Sty-Lists"
-                id="ve.description"
-            />
-        ),
-        incompatibleWithScratch: true,
-        tags: ['se'],
-        featured: true
-    },
-    {
-        name: (
-            <FormattedMessage
                 defaultMessage="Popup Phoenix"
                 description="New Variable Blocks and New Variable Monitors"
                 id="pp.name"
@@ -504,7 +480,7 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="Better Input ⚠️"
+                defaultMessage="Better Input ⚠️ Deprecated, please use Popup-Phoenix ⚠️"
                 description="New Variable Blocks and New Variable Monitors"
                 id="bi.name"
                 values={{
@@ -733,8 +709,416 @@ export default [
         description: (
             <FormattedMessage
                 defaultMessage="Better Text to Speech using the TikTok API"
-                description="Sty-Lists"
+                description="Sty-Lists" 
                 id="ttss.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },    
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Google Auth"
+                description="New Advanced Control Blocks"
+                id="googleauth.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/Ikelene/googleAuthExtension.js',
+        iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Login with Google to your projects. Allows getting a name, profile picture and email from the google account."
+                description="Sty-Lists"
+                id="googleaith.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Toast Notifications"
+                description="New Advanced Control Blocks"
+                id="toastnotifications.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js',
+        iconURL: "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!"
+                description="Sty-Lists"
+                id="gtoastnotifications.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Tune Shark-V3"
+                description="Tune-Shark-V3"
+                id="tune-shark-v3.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Tune-Shark-V3.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Tune-Shark-V3.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Advanced Audio Engine with complex Sound Control, Audio Effects and more"
+                description="Sty-Lists"
+                id="tune-shark-v3.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Tune Shark"
+                description="extenstions"
+                id="tune-shark.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Tune-Shark.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Tune-Shark.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Outdated Sound Engine for playing sounds. ⚠️ Please use Tune Shark V3 ⚠️"
+                description="extenstions"
+                id="tune-shark.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Display Text"
+                description="extenstions"
+                id="display-text.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Display-Text.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Display-Text.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Display Advanced Text in your Projects"
+                description="extenstions"
+                id="display-text.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Fetch Plus"
+                description="extenstions"
+                id="fetch-plus.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Fetch-Plus.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Fetch-Plus.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Fetch and Encode Content from URLs while viewing the Progress and Status of the Fetch"
+                description="extenstions"
+                id="fetch-plus.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Files Expanded"
+                description="extenstions"
+                id="files-expanded.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Files-Expanded.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Files-Expanded.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Expansion of GarboMuffin's File Extension"
+                description="extenstions"
+                id="files-expanded.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="QR Codes"
+                description="extenstion"
+                id="qrcode.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/QR-Codes.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/QR-Codes.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Create and Read QR Codes on the Client"
+                description="extenstion"
+                id="qrcode.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Hyper Sense"
+                description="extenstion"
+                id="hyper-sense.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Hyper-Sense.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Hyper-Sense.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="New Sensing Blocks"
+                description="extenstion"
+                id="hyper-sense.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Geolocation"
+                description="extenstion"
+                id="geolocation.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Geolocation.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Geolocation.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Get users' Location and calculate Real-World Distances"
+                description="extenstion"
+                id="geolocation.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Speech Bubbles"
+                description="extenstion"
+                id="speech-bubbles.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Speech-Bubbles.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Speech-Bubbles.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Customizable Speech Bubbles"
+                description="extenstion"
+                id="speech-bubbles.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="YouTube Operations"
+                description="extenstion"
+                id="youtube.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/YouTube-Operations.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/YouTube-Operations.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Fetch and play Youtube videos and statistics in your Project"
+                description="extenstion"
+                id="youtube.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Recording"
+                description="extenstion"
+                id="recording.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Recording.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Recording.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Blocks for Recording your Microphone while your Project runs"
+                description="extenstion"
+                id="recording.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Pause Utilities"
+                description="extenstion"
+                id="pause.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Pause-Utilities.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Pause-Utilities.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Pause your Project, Scripts, and Sprites"
+                description="extenstion"
+                id="pause.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Advanced Messages"
+                description="extenstion"
+                id="advanced-messages.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Advanced-Messages.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Advanced-Messages.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="New Message Blocks for Advanced, Non-Vanilla Purposes"
+                description="extenstion"
+                id="advanced-messages.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Messages Plus"
+                description="extenstion"
+                id="messagesplus.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Messages-Plus.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Messages-Plus.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Powerful New Message Blocks that work with Vanilla Messages"
+                description="extenstion"
+                id="messagesplus.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="DOM Selector"
+                description="extenstion"
+                id="domselector.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/DOM-Selector.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/DOM-Selector.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Read Elements and Create Events from the website HTML"
+                description="extenstion"
+                id="domselector.description"
             />
         ),
         incompatibleWithScratch: true,

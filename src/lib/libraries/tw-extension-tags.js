@@ -4,7 +4,8 @@ import {APP_NAME} from '../brand';
 export default [
     {tag: 'scratch', intlLabel: 'Scratch'},
     {tag: 'tw', intlLabel: 'Turbowarp'},
-    {tag: 'pm', intlLabel: 'Penguin Mod'},
+    {tag: 'pm', intlLabel: 'PenguinMod'},
     {tag: 'se', intlLabel: 'Sharkpools Extensions'},
-    {tag: 'eg', intlLabel: 'Extension Gallerys'}
+    {tag: 'pl', intlLabel: 'Programming Languages'},
+    {tag: 'eg', intlLabel: 'Collections'}
 ];
