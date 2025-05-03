@@ -407,7 +407,7 @@ export default [
 export const galleryLoading = {
     name: (
         <FormattedMessage
-            defaultMessage="{APP_NAME} Extension Gallery"
+            defaultMessage="Turbowarp Extension Gallery"
             description="Name of extensions.turbowarp.org in extension library"
             id="tw.extensionGallery.name"
             values={{
@@ -426,7 +426,7 @@ export const galleryLoading = {
             id="tw.extensionGallery.loading"
         />
     ),
-    tags: ['tw'],
+    tags: ['eg'],
     featured: true
 };
 
