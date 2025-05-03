@@ -83,7 +83,7 @@ import {setFileHandle} from '../../reducers/tw.js';
 import collectMetadata from '../../lib/collect-metadata';
 
 import styles from './menu-bar.css';
-
+import title from './title.svg';
 import remixIcon from './icon--remix.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import aboutIcon from './icon--about.svg';
@@ -479,6 +479,18 @@ class MenuBar extends React.Component {
             >
                 <div className={styles.mainMenu}>
                     <div className={styles.fileGroup}>
+                    <div className={classNames(styles.menuBarItem)}>
+                                <a href="https://jv-lab-create.github.io/JMod/editor.html">
+                                <img
+                                    alt="Scratch"
+                                    className={classNames(styles.scratchLogo, {
+                                        [styles.clickable]: typeof this.props.onClickLogo !== 'undefined'
+                                    })}
+                                    draggable={false}
+                                    src={title}
+                                />
+                                </a>
+                            </div>
                         {this.props.errors.length > 0 && <div>
                             <MenuLabel
                                 open={this.props.errorsMenuOpen}
