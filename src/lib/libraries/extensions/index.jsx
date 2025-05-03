@@ -386,19 +386,355 @@ export default [
             <FormattedMessage
                 defaultMessage="Captchas"
                 description="Simple Client-Based Captchas, this does not promise 100% security"
-                id="tw.twExtension.name"
+                id="captchas.name"
                 values={{
                     APP_NAME
                 }}
             />
         ),
-        extensionId: 'captchas',
-        iconURL: twIcon,
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Captchas.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Captchas.svg",
         description: (
             <FormattedMessage
-                defaultMessage="Captchas"
+                defaultMessage="Simple Client-Based Captchas, this does not promise 100% security"
                 description="Simple Client-Based Captchas, this does not promise 100% security"
-                id="tw.twExtension.description"
+                id="captchas.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Sty-Lists"
+                description="Customize and Organize List Monitors"
+                id="sty-lists.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Sty-Lists.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Sty-Lists.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Customize and Organize List Monitors"
+                description="Sty-Lists"
+                id="sty-lists.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Variables Expanded"
+                description="New Variable Blocks and New Variable Monitors"
+                id="ve.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Variables-Expanded.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Variables-Expanded.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="New Variable Blocks and New Variable Monitors"
+                description="Sty-Lists"
+                id="ve.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Variables Expanded"
+                description="New Variable Blocks and New Variable Monitors"
+                id="ve.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Variables-Expanded.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Variables-Expanded.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="New Variable Blocks and New Variable Monitors"
+                description="Sty-Lists"
+                id="ve.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Popup Phoenix"
+                description="New Variable Blocks and New Variable Monitors"
+                id="pp.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Popup-Phoenix.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Popup-Phoenix.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Create and design custom Popups! A remaster of 'Better Input'"
+                description="Sty-Lists"
+                id="pp.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Better Input ⚠️"
+                description="New Variable Blocks and New Variable Monitors"
+                id="bi.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Better-Input.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Better-Input.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Expansion of the 'Ask and Wait' Block. Deprecated, please use Popup-Phoenix'"
+                description="Sty-Lists"
+                id="bi.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="My Blocks Plus"
+                description="New Variable Blocks and New Variable Monitors"
+                id="mbp.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/My-Blocks-Plus.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/My-Blocks-Plus.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Better Custom Blocks'"
+                description="Sty-Lists"
+                id="mbp.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Better Comments"
+                description="Better Comments with Color and Text Customization"
+                id="bc.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Better-Comments.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Better-Comments.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Better Comments with Color and Text Customization"
+                description="Sty-Lists"
+                id="bc.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Sprite Panel"
+                description="Better Comments with Color and Text Customization"
+                id="sp.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Sprite-Panel.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Sprite-Panel.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Addon for viewing and managing Sprites and Clones"
+                description="Sty-Lists"
+                id="sp.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Dropdown Maker"
+                description="Create Custom Dropdowns! Best paired with My Blocks+"
+                id="dm.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Dropdown-Maker.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Dropdown-Maker.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Create Custom Dropdowns! Best paired with My Blocks+"
+                description="Sty-Lists"
+                id="dm.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Extra Controls"
+                description="New Advanced Control Blocks"
+                id="ec.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Extra-Controls.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Extra-Controls.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="New Advanced Control Blocks"
+                description="Sty-Lists"
+                id="ec.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="More Operators"
+                description="New Advanced Control Blocks"
+                id="mo.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/More-Operators.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/More-Operators.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="New Advanced Control Blocks"
+                description="Sty-Lists"
+                id="mo.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Added-Motion"
+                description="New Advanced Control Blocks"
+                id="am.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Added-Motion.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Added-Motion.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="New Motion Blocks"
+                description="Sty-Lists"
+                id="am.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Scratch Utilities"
+                description="New Advanced Control Blocks"
+                id="su.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Scratch-Utilities.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Scratch-Utilities.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Blocks for fetching Scratch statistics and assets, inspired by NexusKitten's S-Grab"
+                description="Sty-Lists"
+                id="su.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Text to Speech"
+                description="New Advanced Control Blocks"
+                id="ttss.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Text-to-Speech.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Text-to-Speech.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Better Text to Speech using the TikTok API"
+                description="Sty-Lists"
+                id="ttss.description"
             />
         ),
         incompatibleWithScratch: true,

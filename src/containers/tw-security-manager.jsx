@@ -27,6 +27,12 @@ const isTrustedExtension = url => (
     // Always trust our official extension repostiory.
     url.startsWith('https://extensions.turbowarp.org/') ||
 
+    url.startsWith('https://extensions.penguinmod.com') ||
+
+    url.startsWith('https://electramod-extensions-gallery.vercel.app') ||
+
+    url.startsWith('https://sharkpools-extensions.vercel.app') ||
+
     // For development.
     url.startsWith('http://localhost:8000/') ||
 
