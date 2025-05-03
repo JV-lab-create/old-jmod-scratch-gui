@@ -385,18 +385,18 @@ export default [
         name: (
             <FormattedMessage
                 defaultMessage="Captchas"
-                description="Name of the strange 'TurboWarp Blocks' extension"
+                description="Simple Client-Based Captchas, this does not promise 100% security"
                 id="tw.twExtension.name"
                 values={{
                     APP_NAME
                 }}
             />
         ),
-        extensionId: 'tw',
+        extensionId: 'captchas',
         iconURL: twIcon,
         description: (
             <FormattedMessage
-                defaultMessage="Weird new blocks."
+                defaultMessage="Captchas"
                 description="Simple Client-Based Captchas, this does not promise 100% security"
                 id="tw.twExtension.description"
             />
