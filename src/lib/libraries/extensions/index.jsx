@@ -792,6 +792,30 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Format Numbers"
+                description="extensions"
+                id="gitpenguin.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/DogeisCut/FormatNumbers.js',
+        iconURL: "https://extensions.penguinmod.com/images/DogeisCut/FormatNumbers.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Format large numbers into AD standard, fixed decimal, comma separated, or scientific notation.  Created by DogeisCut. Gallery banner by Dillon"
+                description="extensions"
+                id="gitpenguin.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Toast Notifications"
                 description="New Advanced Control Blocks"
                 id="toastnotifications.name"
@@ -811,30 +835,6 @@ export default [
         ),
         incompatibleWithScratch: true,
         tags: ['pm'],
-        featured: true
-    },
-    {
-        name: (
-            <FormattedMessage
-                defaultMessage="Tune Shark-V3"
-                description="Tune-Shark-V3"
-                id="tune-shark-v3.name"
-                values={{
-                    APP_NAME
-                }}
-            />
-        ),
-        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Tune-Shark-V3.js',
-        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Tune-Shark-V3.svg",
-        description: (
-            <FormattedMessage
-                defaultMessage="Advanced Audio Engine with complex Sound Control, Audio Effects and more"
-                description="Sty-Lists"
-                id="tune-shark-v3.description"
-            />
-        ),
-        incompatibleWithScratch: true,
-        tags: ['se'],
         featured: true
     },
     {
@@ -888,6 +888,30 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Tune Shark-V3"
+                description="Tune-Shark-V3"
+                id="tune-shark-v3.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Tune-Shark-V3.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Tune-Shark-V3.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Advanced Audio Engine with complex Sound Control, Audio Effects and more"
+                description="Sty-Lists"
+                id="tune-shark-v3.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Tune Shark"
                 description="extenstions"
                 id="tune-shark.name"
@@ -903,6 +927,30 @@ export default [
                 defaultMessage="Outdated Sound Engine for playing sounds. ⚠️ Please use Tune Shark V3 ⚠️"
                 description="extenstions"
                 id="tune-shark.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Color Master"
+                description="Color-Master"
+                id="color-master.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Color-Master.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Color-Master.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Color Utility and Conversion Blocks"
+                description="Color-Master"
+                id="color-master.description"
             />
         ),
         incompatibleWithScratch: true,
