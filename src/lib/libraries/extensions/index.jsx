@@ -794,7 +794,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Format Numbers"
                 description="extensions"
-                id="gitpenguin.name"
+                id="format-numbers.name"
                 values={{
                     APP_NAME
                 }}
@@ -806,7 +806,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Format large numbers into AD standard, fixed decimal, comma separated, or scientific notation.  Created by DogeisCut. Gallery banner by Dillon"
                 description="extensions"
-                id="gitpenguin.description"
+                id="format-numbers.description"
             />
         ),
         incompatibleWithScratch: true,
@@ -830,7 +830,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!"
                 description="Sty-Lists"
-                id="gtoastnotifications.description"
+                id="toastnotifications.description"
             />
         ),
         incompatibleWithScratch: true,
