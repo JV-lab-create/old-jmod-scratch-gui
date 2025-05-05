@@ -4371,5 +4371,27 @@
         "md5ext": "01f5372ddac43001a2db4c82d71f37bb.wav",
         "sampleCount": 11056,
         "rate": 44100
+    },
+    {
+        "name": "Achievement",
+        "tags": [
+            "ui"
+        ],
+        "assetId": "adchivement",
+        "dataFormat": "",
+        "md5ext": "adchivement.mp3",
+        "sampleCount": 11056,
+        "rate": 44100
+    },
+    {
+        "name": "Level Up",
+        "tags": [
+            "ui"
+        ],
+        "assetId": "level_up",
+        "dataFormat": "",
+        "md5ext": "levelup.mp3",
+        "sampleCount": 11056,
+        "rate": 44100
     }
 ]

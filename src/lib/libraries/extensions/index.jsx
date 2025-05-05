@@ -720,21 +720,21 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="Google Auth"
-                description="New Advanced Control Blocks"
-                id="googleauth.name"
+                defaultMessage="Boxed Physics"
+                description="Implements the Box2D physics engine into PenguinMod, adding joints, springs, etc. This is different from TurboWarp's implementation. Created by pooiod7."
+                id="boxedphysics.name"
                 values={{
                     APP_NAME
                 }}
             />
         ),
-        extensionId: 'https://extensions.penguinmod.com/extensions/Ikelene/googleAuthExtension.js',
-        iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
+        extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/Box2D.js',
+        iconURL: "https://extensions.penguinmod.com/images/pooiod/B2Dimg.svg",
         description: (
             <FormattedMessage
-                defaultMessage="Login with Google to your projects. Allows getting a name, profile picture and email from the google account. Created by Ikelene."
+                defaultMessage="Implements the Box2D physics engine into PenguinMod, adding joints, springs, etc. This is different from TurboWarp's implementation. Created by pooiod7."
                 description="Sty-Lists"
-                id="googleaith.description"
+                id="boxedphysics.description"
             />
         ),
         incompatibleWithScratch: true,
@@ -744,21 +744,405 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="Discord Auth"
-                description="extensions"
-                id="discordauth.name"
+                defaultMessage="Object"
+                description=""
+                id="object.name"
                 values={{
                     APP_NAME
                 }}
             />
         ),
-        extensionId: 'https://extensions.penguinmod.com/extensions/NotHouse/DiscordAuth.js',
-        iconURL: "https://extensions.penguinmod.com/images/NotHouse/DiscordAuth-banner.png",
+        extensionId: 'https://extensions.penguinmod.com/extensions/skyhigh173/object.js',
+        iconURL: "https://extensions.penguinmod.com/images/skyhigh173/object.svg",
         description: (
             <FormattedMessage
-                defaultMessage="Login with discord to your projects. Identify users by ID and username in a secure and easy way! Created by enderhacker."
-                description="extensions"
-                id="discordauth.description"
+                defaultMessage="Handle large JSON files at an extreme speed. Created by skyhigh173."
+                description=""
+                id="object.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Update File (Direct Access)"
+                description=""
+                id="updatefile.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/Anonymous_cat1/updateFile.js',
+        iconURL: "https://extensions.penguinmod.com/images/Anonymous_cat1/updateFile.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="A simple extension that uses the File System Access API to update files dynamically. ⚠️ File System Access is not supported by all browsers. Projects can maliciously edit files that you open. ⚠️ Created by Anonymous-cat1."
+                description=""
+                id="updatefile.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="3D Math"
+                description=""
+                id="3dmath.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/ObviousAlexC/3DMath.js',
+        iconURL: "https://extensions.penguinmod.com/images/ObviousAlexC/3DMath.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="A handful of utilities for making your own sprite-based 3D engine Created by pinksheep2917."
+                description=""
+                id="3dmath.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Scope Variable"
+                description=""
+                id="scopevariables.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/0znzw/ScopeVars.js',
+        iconURL: "https://extensions.penguinmod.com/images/0znzw/ScopeVars.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Manage your variables in a block-like structure. ⚠️ This extension uses unstable techniques that may not always work. ⚠️ Created by yuri-kiss."
+                description=""
+                id="scopevariables.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Dictation"
+                description=""
+                id="dictation.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/Dictation.js',
+        iconURL: "https://extensions.penguinmod.com/images/pooiod/Dictation.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Convert your voice into text. (not supported in all browsers) Created by pooiod7."
+                description=""
+                id="dictation.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Background Remover"
+                description=""
+                id="backgroundremover.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/dumzdev/removebg.js',
+        iconURL: "https://extensions.penguinmod.com/images/dumzdev/removebgbanner.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Removes background from images. Created by dumzdev."
+                description=""
+                id="backgroundremover.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="E2EE"
+                description=""
+                id="e2ee.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/MikeDev101/e2ee.js',
+        iconURL: "https://extensions.penguinmod.com/images/MikeDev101/e2ee.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="A general-purpose E2EE (End-to-End Encryption) extension for Scratch. Created by MikeDev101."
+                description=""
+                id="e2ee.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="WebRTC"
+                description=""
+                id="webrtc.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/MikeDev101/webrtc.js',
+        iconURL: "https://extensions.penguinmod.com/images/MikeDev101/webrtc.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="A barebones WebRTC implementation. Created by MikeDev101."
+                description=""
+                id="webrtc.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Random Utilities"
+                description=""
+                id="randomutilities.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/random_utils.js',
+        iconURL: "https://extensions.penguinmod.com/images/Gen1x/randomutils.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Many blocks related to generating random values, including seed-based number generation, true number generation, UUID's, random strings, etc. Created by G1nX."
+                description=""
+                id="randomutilities.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Cockatiel Location"
+                description=""
+                id="location.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/bruhbeast-pixel/CockatielLocation.js',
+        iconURL: "https://extensions.penguinmod.com/images/bruhbeast-pixel/CockatielLocation.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Fetch Users' IP Addresses and Location. Created by bruhbeast-pixel."
+                description=""
+                id="location.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="More Types"
+                description=""
+                id="moretypes.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/VeryGoodScratcher42/More-Types.js',
+        iconURL: "https://extensions.penguinmod.com/images/VeryGoodScratcher42/More-Types.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Adds more value types to PenguinMod, implementing Functions, Objects, Arrays, Sets, Maps, Symbols and Nothing. Created by VeryGoodScratcher42."
+                description=""
+                id="moretypes.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="PenguinAI"
+                description=""
+                id="penguinai.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/VeryGoodScratcher42/More-Types.js',
+        iconURL: "https://extensions.penguinmod.com/images/VeryGoodScratcher42/More-Types.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Talk to AI! Use Models like DALL-E-3, GPT, LLama, Claude, and more! Created by MubiLop. ⚠️⚠️AI models can generate unintended or inappropriate output. Some AI models may also become temporarily inaccessible. Use at your own risk.⚠️⚠️"
+                description=""
+                id="penguinai.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Spritesheeter"
+                description=""
+                id="spritesheeter.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/spritesheeter.js',
+        iconURL: "https://extensions.penguinmod.com/images/MubiLop/spritesheeter.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Load and manipulate spritesheets with customizable frames and XML support Created by MubiLop."
+                description=""
+                id="spritesheeter.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Toast Notifications"
+                description=""
+                id="toast_notifications.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js',
+        iconURL: "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension! Created by MubiLop. Additional code by themeatly2 and ddededodediamante"
+                description=""
+                id="toast_notifications.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Number Utilities"
+                description=""
+                id="number_utiliteies.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/numutils.js',
+        iconURL: "https://extensions.penguinmod.com/images/MubiLop/numutils.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Adds blocks for number formatting and manipulation. Created by MubiLop. Art made by hazel"
+                description=""
+                id="number_utiliteies.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Mathematics"
+                description=""
+                id="mathematics.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/jwklong/mathematics.js',
+        iconURL: "https://extensions.penguinmod.com/images/jwklong/mathematics.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Complicated maths extension for nerds. Created by jwklong."
+                description=""
+                id="mathematics.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Big Decimal"
+                description=""
+                id="bigdecimal.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/qxsck/big-decimal.js',
+        iconURL: "https://extensions.penguinmod.com/images/qxsck/big-decimal.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="High precision operations. (Support decimals) Created by qxsck."
+                description=""
+                id="bigdecimal.description"
             />
         ),
         incompatibleWithScratch: true,
@@ -792,6 +1176,198 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Google Auth"
+                description="New Advanced Control Blocks"
+                id="googleauth.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/Ikelene/googleAuthExtension.js',
+        iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Login with Google to your projects. Allows getting a name, profile picture and email from the google account. Created by Ikelene."
+                description="Sty-Lists"
+                id="googleaith.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Pang API"
+                description=""
+                id="pangapi.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/SammerLOL/pangapi.js',
+        iconURL: "https://extensions.penguinmod.com/images/SammerLOL/pangapi.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Fetch information from the PenguinMod API. Created by oc9x97."
+                description=""
+                id="pangapi.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Discord Auth"
+                description="extensions"
+                id="discordauth.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/NotHouse/DiscordAuth.js',
+        iconURL: "https://extensions.penguinmod.com/images/NotHouse/DiscordAuth-banner.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Login with discord to your projects. Identify users by ID and username in a secure and easy way! Created by enderhacker."
+                description="extensions"
+                id="discordauth.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Twitch"
+                description=""
+                id="twitch.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/bop_tw/Twitch.js',
+        iconURL: "https://extensions.penguinmod.com/images/Ikelene/ExtensionBanner.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Communicate with your Twitch Chat on PenguinMod! PenguinMod or JMod is not affiliated with Twitch. Created by bop_tw."
+                description=""
+                id="twitch.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Chess"
+                description="extensions"
+                id="chess.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/chess-ext.js',
+        iconURL: "https://extensions.penguinmod.com/images/Gen1x/chess-ext.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="A powerful extension about Chess. It allows to create a Chessboard, manage chess games, and use Stockfish 17 in your projects. Created by G1nX."
+                description="extensions"
+                id="chess.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="TurboWeather"
+                description="extensions"
+                id="turboweather.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/RubyDevs/turboweather.js',
+        iconURL: "https://extensions.penguinmod.com/images/RubyDevs/turboweather.webp",
+        description: (
+            <FormattedMessage
+                defaultMessage="Show weather and location data for any place in our world. Data that could be used for doxxing is deleted from results. Created by RubyDevs."
+                description="extensions"
+                id="turboweather.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="CORS Proxy"
+                description="extensions"
+                id="corsproxy.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/NamelessCat/corsproxy.js',
+        iconURL: "https://extensions.penguinmod.com/images/NamelessCat/corsproxy.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Accessible CORS Proxies for fetching information with PenguinMod. Created by NamelessCat."
+                description="extensions"
+                id="corsproxy.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Extension Exposer"
+                description="extensions"
+                id="extensionexposer.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/extexp.js',
+        iconURL: "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Access the raw functions from other extensions. Created by TheShovel."
+                description="extensions"
+                id="extensionexposer.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Format Numbers"
                 description="extensions"
                 id="format-numbers.name"
@@ -807,30 +1383,6 @@ export default [
                 defaultMessage="Format large numbers into AD standard, fixed decimal, comma separated, or scientific notation.  Created by DogeisCut. Gallery banner by Dillon"
                 description="extensions"
                 id="format-numbers.description"
-            />
-        ),
-        incompatibleWithScratch: true,
-        tags: ['pm'],
-        featured: true
-    },
-    {
-        name: (
-            <FormattedMessage
-                defaultMessage="Toast Notifications"
-                description="New Advanced Control Blocks"
-                id="toastnotifications.name"
-                values={{
-                    APP_NAME
-                }}
-            />
-        ),
-        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/toastnotifs.js',
-        iconURL: "https://extensions.penguinmod.com/images/MubiLop/toastnotifs.png",
-        description: (
-            <FormattedMessage
-                defaultMessage="Did you want alerts? Notifications that are easily customizable? This is the only and best notification extension!"
-                description="Sty-Lists"
-                id="toastnotifications.description"
             />
         ),
         incompatibleWithScratch: true,

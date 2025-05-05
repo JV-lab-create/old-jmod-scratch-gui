@@ -51,6 +51,12 @@ export default defineMessages({
         description: 'Tag for filtering a library for music',
         id: 'gui.libraryTags.music'
     },
+
+    ui: {
+        defaultMessage: 'UI',
+        description: 'Tag for filtering a library for UI',
+        id: 'gui.libraryTags.ui'
+    },
     notes: {
         defaultMessage: 'Notes',
         description: 'Tag for filtering a library for notes',
