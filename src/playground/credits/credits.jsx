@@ -61,13 +61,13 @@ const Credits = () => (
         </header>
         <section>
             <p>
-                The {APP_NAME} project is made possible by the work of many volunteers.
+                The Turbowarp project is made possible by the work of many volunteers.
             </p>
         </section>
         {APP_NAME !== 'TurboWarp' && (
             // Be kind and considerate. Don't remove this :)
             <section>
-                <h2>TurboWarp</h2>
+                <h2>Credits to TurboWarp</h2>
                 <p>
                     {APP_NAME} is based on <a href="https://turbowarp.org/">TurboWarp</a>.
                 </p>
@@ -76,7 +76,7 @@ const Credits = () => (
         <section>
             <h2>Scratch</h2>
             <p>
-                {APP_NAME} is based on the work of the <a href="https://scratch.mit.edu/credits">Scratch contributors</a> but is not endorsed by Scratch in any way.
+                Turbowarp is based on the work of the <a href="https://scratch.mit.edu/credits">Scratch contributors</a> but is not endorsed by Scratch in any way.
             </p>
             <p>
                 <a href="https://scratch.mit.edu/donate">

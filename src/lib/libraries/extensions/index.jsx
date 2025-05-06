@@ -1016,8 +1016,8 @@ export default [
                 }}
             />
         ),
-        extensionId: 'https://extensions.penguinmod.com/extensions/VeryGoodScratcher42/More-Types.js',
-        iconURL: "https://extensions.penguinmod.com/images/VeryGoodScratcher42/More-Types.png",
+        extensionId: 'https://extensions.penguinmod.com/extensions/MubiLop/penguingpt.js',
+        iconURL: "https://extensions.penguinmod.com/images/MubiLop/penguingpt.png",
         description: (
             <FormattedMessage
                 defaultMessage="Talk to AI! Use Models like DALL-E-3, GPT, LLama, Claude, and more! Created by MubiLop. ⚠️⚠️AI models can generate unintended or inappropriate output. Some AI models may also become temporarily inaccessible. Use at your own risk.⚠️⚠️"
@@ -1190,7 +1190,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Login with Google to your projects. Allows getting a name, profile picture and email from the google account. Created by Ikelene."
                 description="Sty-Lists"
-                id="googleaith.description"
+                id="googleauth.description"
             />
         ),
         incompatibleWithScratch: true,
@@ -1359,6 +1359,342 @@ export default [
                 defaultMessage="Access the raw functions from other extensions. Created by TheShovel."
                 description="extensions"
                 id="extensionexposer.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+        {
+        name: (
+            <FormattedMessage
+                defaultMessage="More Fields"
+                description="extensions"
+                id="morefields.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/Ashime/MoreFields.js',
+        iconURL: "https://extensions.penguinmod.com/images/TheShovel/placeholder-extexp.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Custom Field Types Created by yuri-kiss."
+                description="extensions"
+                id="morefields.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Beepbox Player"
+                description="extensions"
+                id="beepboxplayer.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/DogeisCut/BeepBoxPlayer.js',
+        iconURL: "https://extensions.penguinmod.com/images/DogeisCut/BeepBoxPlayer.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Play, edit, and read songs from any BeepBox mod directly from the URL or JSON! Created by DogeisCut."
+                description="extensions"
+                id="beepboxplayer.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="File Upload"
+                description="extensions"
+                id="fileupload.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/Codefoxy/cfupload.js',
+        iconURL: "https://extensions.penguinmod.com/images/Codefoxy/cfupload.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Upload files to the Network, can also used with Files extension. Created by Codefoxy."
+                description="extensions"
+                id="fileupload.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="WindowHasher"
+                description="extensions"
+                id="windowhasher.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/WindowHasher.js',
+        iconURL: "https://extensions.penguinmod.com/images/pooiod/WindowHasher.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Interact with URL hash: the part of the URL after a hashtag Created by pooiod7."
+                description="extensions"
+                id="windowhasher.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Scratchblocks"
+                description="extensions"
+                id="scratchblocks.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/Scratchblocks.js',
+        iconURL: "https://extensions.penguinmod.com/images/pooiod/Scratchblocks.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Generate blocks in the Scratch3, or Scratch2 format. Created by pooiod7."
+                description="extensions"
+                id="scratchblocks.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="CATS"
+                description="extensions"
+                id="cats.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/CATS.js',
+        iconURL: "https://extensions.penguinmod.com/images/Gen1x/cats.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Blocks related to cats. Created by G1nX."
+                description="extensions"
+                id="cats.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Counter++"
+                description="extensions"
+                id="counterplusplus.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/MrRedstonia/counterplusplus.js',
+        iconURL: "https://extensions.penguinmod.com/images/MrRedstonia/counterplusplus.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Count anything, at any time, in PenguinMod! Created by MrRedstonia."
+                description="extensions"
+                id="counterplusplus.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="How many lines?"
+                description="extensions"
+                id="howmanylines.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/Monochromasity/howmanylines.js',
+        iconURL: "https://extensions.penguinmod.com/images/Monochromasity/placeholder-howmanylines.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Blocks to determine the amount of new lines in a piece of text. Created by Monochromasity."
+                description="extensions"
+                id="howmanylines.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Free Servers"
+                description="extensions"
+                id="freeservers.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/WAYLIVES/FreeServers.js',
+        iconURL: "https://extensions.penguinmod.com/images/WAYLIVES/FreeServersIMG.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Here you can find a free server for your projects. And also check whether it is working now or not. Здесь вы можете найти бесплатный сервер для своих проектов. А также проверить, работает он сейчас или нет. Created by WAYLIVES."
+                description="extensions"
+                id="freeservers.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Text To Speech: Redone"
+                description="extensions"
+                id="ttsredone.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/PuzzlingGGG/ttsr.js',
+        iconURL: "https://extensions.penguinmod.com/images/PuzzlingGGG/TTSR.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="A better alternitive to the base text to speech extension. Powered by the TTStool API Created by PuzzlingGGG."
+                description="extensions"
+                id="ttsredone.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Video Sharing"
+                description="extensions"
+                id="videosharing.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/pooiod/VideoSharing.js',
+        iconURL: "https://extensions.penguinmod.com/images/pooiod/VideoSharing.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Share your screen or camera to your projects! Created by pooiod."
+                description="extensions"
+                id="videosharing.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="oneko"
+                description="extensions"
+                id="oneko.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/oneko.js',
+        iconURL: "https://extensions.penguinmod.com/images/TheShovel/thumbnail-oneko.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Cute cat that follows you on the block area. Created by TheShovel."
+                description="extensions"
+                id="oneko.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="oneko"
+                description="extensions"
+                id="oneko.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/TheShovel/oneko.js',
+        iconURL: "https://extensions.penguinmod.com/images/TheShovel/thumbnail-oneko.png",
+        description: (
+            <FormattedMessage
+                defaultMessage="Cute cat that follows you on the block area. Created by TheShovel."
+                description="extensions"
+                id="oneko.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['pm'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="GPU.sb3"
+                description="extensions"
+                id="gpu.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://extensions.penguinmod.com/extensions/derpygamer2142/gpusb3.js',
+        iconURL: "https://extensions.penguinmod.com/images/derpygamer2142/gpusb3.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="⚠️WebGPU is still experimental and not supported by all browsers and does not work when packaged to electron. Check compatibility at webgpu.io.⚠️Use WebGPU compute shaders to accelerate your projects. Created by derpygamer2142."
+                description="extensions"
+                id="gpu.description"
             />
         ),
         incompatibleWithScratch: true,
@@ -1551,6 +1887,30 @@ export default [
                 defaultMessage="Fetch and Encode Content from URLs while viewing the Progress and Status of the Fetch"
                 description="extenstions"
                 id="fetch-plus.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="JSON Array"
+                description="extenstions"
+                id="jsonarray.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/JSON-Array.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/JSON-Array.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Super Fast JSON and Array extension Creator: SharkPool"
+                description="extenstions"
+                id="jsonarray.description"
             />
         ),
         incompatibleWithScratch: true,
