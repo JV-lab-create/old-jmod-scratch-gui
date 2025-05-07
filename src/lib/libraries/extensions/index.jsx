@@ -1880,7 +1880,7 @@ export default [
                 }}
             />
         ),
-        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Fetch-Plus.js',
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Fetch-Progress.js',
         iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Fetch-Plus.svg",
         description: (
             <FormattedMessage
@@ -2175,6 +2175,126 @@ export default [
                 defaultMessage="Read Elements and Create Events from the website HTML"
                 description="extenstion"
                 id="domselector.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Sharktilities"
+                description="extenstion"
+                id="sharktilities.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Sharktilities.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Sharktilities.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Various utility blocks for various operations Creator: SharkPool"
+                description="extenstion"
+                id="sharktilities.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Seeds"
+                description="extenstion"
+                id="seeds.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Seeds.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Seeds.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Generate random seeded numbers, generated terrain, and more Creator: SharkPool"
+                description="extenstion"
+                id="seeds.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="GIF Manager"
+                description="extenstion"
+                id="gif-manager.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/GIF-Manager.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/GIF-Manager.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Create and Split GIF Frames Creator: SharkPool"
+                description="extenstion"
+                id="gif-manager.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Keys Plus V2"
+                description="extenstion"
+                id="keys-plus-v2.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/KeysPlusV2.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Keys-Plus-V2.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Powerful and flexible Key detection Blocks with some additional features Creator: StackOverflow"
+                description="extenstion"
+                id="keys-plus-v2.description"
+            />
+        ),
+        incompatibleWithScratch: true,
+        tags: ['se'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Keys Plus V2"
+                description="extenstion"
+                id="pen-papers.name"
+                values={{
+                    APP_NAME
+                }}
+            />
+        ),
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Pen-Papers.js',
+        iconURL: "https://sharkpools-extensions.vercel.app/extension-thumbs/Pen-Papers.svg",
+        description: (
+            <FormattedMessage
+                defaultMessage="Create Multiple Pen Layers! Inspired by ObviousAlex  Creator: SharkPool"
+                description="extenstion"
+                id="pen-papers.description"
             />
         ),
         incompatibleWithScratch: true,
