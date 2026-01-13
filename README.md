@@ -1,4 +1,9 @@
-scratch-gui modified for use in [TurboWarp](https://turbowarp.org/)
+## ⚠️ JMod is no longer worked on ⚠️
+I am currently not working on it because I changed my mind mostly on the orignal design of it, there will be a new scratch modification. It will have a diffrent name and will be able to support all orignal projects made with it.
+
+JMOD will still exsit but it will not be worked on anymore
+
+scratch-gui modified for use in [TurboWarp](https://turbowarp.org/) then mod of use in [JMOD](https://jv-lab-create.github.io/legacy-jmod)
 
 ## Setup
 
